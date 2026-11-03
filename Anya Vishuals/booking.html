@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080808"><meta name="description" content="Send a booking enquiry to ANYA VISUALS for photography and cinematic video services in Deoria, Uttar Pradesh.">
+<title>Book Your Shoot | ANYA VISUALS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="location" href="https://www.google.com/maps/search/?api=1&query=Deoria%2C+Uttar+Pradesh%2C+India" target="_blank" rel="noopener noreferrer">
+        <span class="tiny-icon" aria-hidden="true">⌖</span> Deoria, Uttar Pradesh
+      </a>
+      <div class="top-links">
+        <a href="mailto:Kushwahaji275401@gmail.com"><span aria-hidden="true">✉</span> Kushwahaji275401@gmail.com</a>
+        <a href="https://www.instagram.com/ANYA_VISUALS_UP52/" target="_blank" rel="noopener noreferrer"><span class="instagram-glyph" aria-hidden="true">◎</span> @ANYA_VISUALS_UP52</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="ANYA VISUALS home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="lens lens-one"></span><span class="lens lens-two"></span><span class="lens lens-three"></span>
+        </span>
+        <span class="brand-copy">
+          <span class="brand-name">ANYA</span>
+          <span class="brand-visuals">VISUALS</span>
+          <span class="brand-tagline">Capture • Create • Celebrate</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About Us</a>
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">Services <span class="chevron">⌄</span></button>
+          <div class="dropdown-menu">
+            <a href="services.html">Wedding Photography</a>
+            <a href="services.html">Cinematic Videography</a>
+            <a href="services.html">Drone &amp; 360° Shoots</a>
+            <a href="services.html">Reels &amp; Video Editing</a>
+            <a href="services.html">Promotional Videos</a>
+          </div>
+        </div>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="films.html">Films &amp; Reels</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="button button-gold nav-book" href="booking.html"><span aria-hidden="true">▦</span> Book Your Shoot</a>
+      </nav>
+    </div>
+  </header>
+<main>
+
+<section class="page-hero"><div class="section-kicker">LET'S MAKE IT MEMORABLE</div><h1>Book Your <em>Shoot</em></h1><p>Share your requirements and open a pre-filled enquiry in WhatsApp or your email app.</p></section>
+<section class="page-content"><div class="booking-section" style="padding:0;width:100%">
+<div class="booking-intro"><div class="section-kicker">YOUR STORY STARTS HERE</div><h2>Let's plan<br><em>your moment.</em></h2><p>Complete the form and review your enquiry before sending it.</p><div class="booking-contact"><span>☎</span><div><small>Call us</small><a href="tel:+917618924280">+91 76189 24280</a></div></div><div class="booking-contact"><span>✉</span><div><small>Email</small><a href="mailto:Kushwahaji275401@gmail.com">Kushwahaji275401@gmail.com</a></div></div></div>
+<form class="booking-form" id="booking-form"><h3>Booking Enquiry</h3><p class="form-note">Fields marked * are required.</p>
+<div class="form-row"><label>Full Name *<input name="name" type="text" autocomplete="name" placeholder="Your name" required maxlength="100"></label><label>Mobile Number *<input name="phone" type="tel" autocomplete="tel" placeholder="Your phone number" required pattern="[+0-9 ()-]{8,20}" maxlength="20"></label></div>
+<label>Email Address (optional)<input name="email" type="email" autocomplete="email" placeholder="you@example.com"></label>
+<label>Service Required *<select name="service" id="service-select" required><option value="">Choose a service</option><option>Wedding Photography</option><option>Wedding Cinematography</option><option>Engagement Shoot</option><option>Birthday Photography</option><option>Special Event Coverage</option><option>Cinematic Photoshoot</option><option>Cinematic Video Shoot</option><option>Drone Shoot</option><option>360-Degree Video Shoot</option><option>Reels Shooting and Editing</option><option>Video Editing</option><option>Promotional Video</option><option>Other</option></select></label>
+<div class="form-row"><label>Event Date<input name="date" type="date" id="event-date"></label><label>Event Location *<input name="location" type="text" placeholder="City or venue" required maxlength="160"></label></div>
+<label>Additional Requirements<textarea name="message" rows="4" placeholder="Tell us about your event or project..." maxlength="1500"></textarea></label>
+<label>Send enquiry via<select name="contactMethod" id="contact-method"><option value="whatsapp">WhatsApp</option><option value="email">Email</option></select></label>
+<button class="button button-gold submit-button" type="submit">Prepare My Enquiry →</button><p class="form-disclaimer">This prepares a message for you to review and send; it does not send automatically or save to a database.</p><div class="form-status" id="form-status" role="status" aria-live="polite"></div></form>
+</div></section>
+
+</main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <a class="brand footer-brand" href="index.html" aria-label="ANYA VISUALS home">
+        <span class="brand-mark" aria-hidden="true"><span class="lens lens-one"></span><span class="lens lens-two"></span><span class="lens lens-three"></span></span>
+        <span class="brand-copy"><span class="brand-name">ANYA</span><span class="brand-visuals">VISUALS</span><span class="brand-tagline">Capture • Create • Celebrate</span></span>
+      </a>
+      <p>Professional photography, cinematic videography, drone shoots, reels, and video editing.</p>
+      <div class="footer-social"><a href="https://www.instagram.com/ANYA_VISUALS_UP52/" target="_blank" rel="noopener noreferrer">Instagram @ANYA_VISUALS_UP52 ↗</a><a href="mailto:Kushwahaji275401@gmail.com">Kushwahaji275401@gmail.com</a></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="current-year"></span> ANYA VISUALS. All rights reserved.</span><a href="index.html">Back to top ↑</a></div>
+  </footer>
+<a class="floating-whatsapp" href="https://wa.me/917618924280?text=Hello%20ANYA%20VISUALS%2C%20I%20would%20like%20to%20enquire%20about%20a%20shoot." target="_blank" rel="noopener noreferrer" aria-label="Contact ANYA VISUALS on WhatsApp">☏</a>
+<script src="script.js"></script></body></html>
